@@ -14,7 +14,7 @@ The system allows for the management of four types of items: Books, Magazines, R
    - **Admin and RegularUser (Derived Classes):** These classes inherit from `User`. The `Admin` class has additional methods for managing items, while `RegularUser` is limited to viewing items.
 
 2. **Admin Functionalities:**
-   - **Add Items:** The admin can add new items to the inventory by entering details such as title, author, number of copies, price, and specific details depending on the item type.
+   - **Add Items:** The admin can add new items to the inventory by entering details such as title, author, number of copies, price, and specific details depending on the items type.
    - **Modify Items:** The admin can modify existing items by updating their number of copies and price.
    - **Delete Items:** The admin can remove items from the inventory.
    - **View All Items:** The admin can view all items in the inventory, with detailed information about each.
