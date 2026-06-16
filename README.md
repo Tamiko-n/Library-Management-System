@@ -8,7 +8,7 @@ The system allows for the management of four types of items: Books, Magazines, R
 ### Code Structure
 
 1. **Classes and Inheritance:**
-   - **Item (Base Class):** This class represents a general item in the library. It includes basic attributes like title, author, number of copies, and price. It serves as the base class for specific item types.
+   - **Item (Base Class):** This class represents a general item in the library. It includes basic attributes like title, author, number of copies, and price. It serves as the base class for specific items types.
    - **Book, Magazine, ResearchJournal, FYP (Derived Classes):** These classes inherit from `Item` and represent specific types of library items. Each class may have additional attributes specific to that item type (e.g., edition for books, issue number for magazines).
    - **User (Base Class):** This class represents a general user of the system, with basic attributes like username and password.
    - **Admin and RegularUser (Derived Classes):** These classes inherit from `User`. The `Admin` class has additional methods for managing items, while `RegularUser` is limited to viewing items.
