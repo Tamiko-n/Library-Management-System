@@ -1,5 +1,5 @@
 # Library-Management-System
-The Library Management System you've created in C++ is an object-oriented application designed to manage a library's inventory. It includes various functionalities for both administrators (admin) and regular users. Here's a detailed explanation of the code and its functionality:
+The Library Management System you've created in C++ is an object-oriented application designed to manage a library's inventory. It includes various functionalities for both administrators (admin) and regular users. Here's a detailed explanations of the code and its functionality:
 
 ### Overview
 
@@ -8,10 +8,10 @@ The system allows for the management of four types of items: Books, Magazines, R
 ### Code Structure
 
 1. **Classes and Inheritance:**
-   - **Item (Base Class):** This class represents a general item in the library. It includes basic attributes like title, author, number of copies, and price. It serves as the base class for specific items types.
+   - **Items (Base Class):** This class represents a general item in the library. It includes basic attributes like title, author, number of copies, and price. It serves as the base class for specific items types.
    - **Book, Magazine, ResearchJournal, FYP (Derived Classes):** These classes inherit from `Item` and represent specific types of library items. Each class may have additional attributes specific to that item type (e.g., edition for books, issue number for magazines).
    - **User (Base Class):** This class represents a general user of the system, with basic attributes like username and password.
-   - **Admin and RegularUser (Derived Classes):** These classes inherit from `User`. The `Admin` class has additional methods for managing items, while `RegularUser` is limited to viewing items.
+   - **Admin and RegularUser (Derived Classes):** These classes inherit from `User`. The `Admin` class has additional methods for managing items, while `RegularUser` is limit to viewing items.
 
 2. **Admin Functionalities:**
    - **Add Items:** The admin can add new items to the inventory by entering details such as title, author, number of copies, price, and specific details depending on the items type.
