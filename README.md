@@ -1,5 +1,5 @@
 # Library-Management-System
-The Library Management System you've created in C++ is an object-oriented application designed to manage a library's inventory. It includes various functionalities for both administrators (admin) and regular users. Here's a detailed explanation of the code and its functionality:
+The Library Management System you have created in C++ is an object-oriented application designed to manage a library's inventory. It includes various functionalities for both administrators (admin) and regular users. Here's a detailed explanation of the code and its functionality:
 
 ### Overview
 
@@ -20,13 +20,13 @@ The system allows for the management of four types of items: Books, Magazines, R
    - **View All Items:** The admin can view all items in the inventory, with detailed information about each.
 
 3. **User Functionalities:**
-   - **View All Items:** Regular users can view the list of all available items in the library.
+   - **View All Item:** Regular users can view the list of all available items in the library.
 
 4. **File Handling:**
    - **Saving and Loading Data:** The system uses file handling to save and load user and item data, ensuring persistence between program executions.
 
 5. **User Interface:**
-   - **Menu-Driven Interface:** The system is operated through a menu-driven interface, where users and admins choose options to perform different tasks.
+   - **Menu-Driven Interface:** The system is operated through a menu-driven interfaces, where users and admins choose options to perform different tasks.
    - **Notifications:** The system provides feedback to users through loading animations and success/failure notifications.
 
 ### Key Functions
